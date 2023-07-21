@@ -24,8 +24,7 @@ border-radius: 10px;
 background-image: url(../img/backgroun-container.png);
 background-position: center;
 background-size: 100%;
-background-repeat: no-repeat;
-background-attachment: fixed;}
+background-repeat: no-repeat;}
 
 
 .div-search
@@ -104,12 +103,12 @@ transition: 250ms;}
 {background-color: rgb(76, 115, 229);}
 
 
+
+
+
 .weather-description
 {position: relative;
 border-bottom: 2px solid rgb(255, 255, 255);}
-
-
-
 
 .div-description
 {position: absolute;
@@ -124,9 +123,14 @@ display: flex;}
 font-size: 2.5rem;}
 
 #description-img
-{width: 60px;
-height: 60px;
-margin-left: 20px;}
+{width: 65px;
+height: 65px;
+margin-top: -5px;
+margin-left: 10px;
+display: none;}
+
+
+
 
 
 
@@ -142,6 +146,17 @@ color: white;}
 
 .wind-txt, .humidity-description
 {margin-top: -20px;}
+
+.minMax-div
+{
+margin-top: 10px;
+margin-left: 30px;
+font-size: 1.6rem;
+color: white;
+font-weight: bold;}
+
+#max
+{margin-top: -10px;}
 
 
 
