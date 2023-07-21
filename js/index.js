@@ -82,35 +82,3 @@ countryBtn.addEventListener('click', (e) => {
 
 
 //date 
-
-const dataAtual = new Date(); 
-const day = dataAtual.getDate(); 
-const mouth = dataAtual.getMonth() + 1; 
-const year = dataAtual.getFullYear(); 
-
-const dataFormatada = `${day}/${mouth < 10 ? '0' : ''}${mouth}/${year}`; 
-
-const date = document.querySelector('.date-days'); 
-date.innerHTML = dataFormatada; 
-
-const dayWeekElement = document.querySelector('.day-week'); 
-
-const DayWeek = dataAtual.getDay(); 
-
-if (DayWeek === 1) {
-    dayWeekElement.innerHTML = 'Segunda-feira'
-} else if (DayWeek === 2) {
-    dayWeekElement.innerHTML = 'Terca-feira'
-} else if (DayWeek === 3) {
-    dayWeekElement.innerHTML = 'Quarta-feira'
-} else if (DayWeek === 4) {
-    dayWeekElement.innerHTML = 'Quinta-feira'
-} else if (DayWeek === 5) {
-    dayWeekElement.innerHTML = 'Sexta-feira'
-} else if (DayWeek === 6) {
-    dayWeekElement.innerHTML = 'Sábado'
-} else if (DayWeek === 7) {
-    dayWeekElement.innerHTML = 'Domingo'
-} else {
-    return; 
-}
