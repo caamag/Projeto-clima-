@@ -6,6 +6,10 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="mobile/media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
     
     <script src="js/index.js" defer></script>
 
@@ -13,7 +17,78 @@
 </head>
 <body>
     
-    
+    <section class="container">
+
+        <div class="div-search">
+
+            <div class="date">
+
+                <h1 class="date-days">21/07/2023</h1>
+
+                <h1 class="day-week">Sexta feira</h1>
+
+            </div>
+
+            <p id="temperature"><span>25</span>&deg;C</p>
+
+            <p id="city">Ferraz de Vasconcelos</p>
+
+        </div>
+
+
+
+
+
+
+        <div class="div-data">
+
+            <div class="form-weather">
+
+                <form action="">
+
+                    <input type="text" id="country-input" placeholder="Enter your city:">
+                    <button class="country-btn">Search:</button>
+
+                </form>
+
+            </div>
+            
+            <div class="weather-description">
+
+                <div class="div-description">
+                    <h1 class="description">Nublado</h1>
+                    <img src="img/icons/nublado.png" alt="" id="description-img">
+                </div>
+                
+            </div>
+
+            <div class="div-wind">
+
+                <div class="wind-description">
+
+                    <h1>Wind speed :</h1>
+                    <h2 class="wind-txt"><span>40</span>Km</h2>
+
+                </div>
+
+            </div>
+
+            <div class="div-huminity">
+
+                <div class="huminity">
+
+                    <h1>Huminity :</h1>
+                    <h2 class="humidity-description"><span>50</span>%</h2>
+
+                </div>
+
+            </div>
+
+            <div class="minMax-div"></div>
+
+        </div>
+
+    </section>
 
 </body>
 </html>
