@@ -25,20 +25,20 @@ border-bottom-right-radius: 0px;
 border-top-right-radius: 0px;}
 
 .date
-{top: 10px;
-left: 10px;}
+{top: 20px;
+left: 20px;}
 
 .date-days, .day-week
 {font-size: 1.2rem;}
 
 #temperature
-{font-size: 7rem;
-margin-top: 180px;
-margin-left: 5px;}
+{font-size: 8rem;
+margin-top: 160px;
+margin-left: 15px;}
 
 #city
 {margin-top: -55px;
-margin-left: 10px;}
+margin-left: 20px;}
 
 
 
