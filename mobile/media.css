@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 500px){
+    
+body
+{background-image: url(../img/background-mobile.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;}
+
+.container
+{background-image: none;
+flex-direction: column;
+width: 100%;
+height: 100vh;}
+
+.div-search
+{width: 100%;
+height: 50%;}
+
+.div-data
+{width: 100%;
+height: 50%;
+border-bottom-right-radius: 0px;
+border-top-right-radius: 0px;}
+
+.date
+{top: 10px;
+left: 10px;}
+
+.date-days, .day-week
+{font-size: 1.2rem;}
+
+#temperature
+{font-size: 7rem;
+margin-top: 180px;
+margin-left: 5px;}
+
+#city
+{margin-top: -55px;
+margin-left: 10px;}
+
+
+
+
+.form-weather
+{text-align: left;}
+
+
+.form-weather input
+{font-size: 1rem;
+margin-left: 5px;
+width: 70%;}
+
+.form-weather button
+{margin-left: 5px;
+font-size: 1rem;
+background-color: rgb(76, 115, 229, 0.7);
+padding-left: 10px;
+padding-right: 10px;}
+
+
+
+.weather-description
+{border-bottom: 1px solid rgb(255, 255, 255);}
+
+.div-description
+{width: 200px;
+height: 150px;
+bottom: 30px;}
+
+.description
+{font-size: 2rem;}
+
+#description-img
+{width: 50px;
+height: 50px;
+margin-left: 2px;}
+
+
+
+
+.wind-description, .huminity
+{font-size: 1rem;
+margin-top: 10px;
+margin-left: 10px;}
+
+.wind-txt, .humidity-description
+{margin-top: -10px;}
+
+.minMax-div
+{margin-top: 0px;
+margin-left: 0px;
+font-size: 1.4rem;
+width: 90%;}
+
+#max
+{margin-top: -10px;
+margin-left: 10px;}
+
+#min
+{margin-left: 10px;
+margin-top: 5px;}
+
+}
