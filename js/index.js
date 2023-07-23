@@ -108,7 +108,7 @@ function getDayweek () {
         weekDay.innerHTML = week[4]
     } else if (dayWeek === 6) {
         weekDay.innerHTML = week[5]
-    } else if (dayWeek === 7) {
+    } else if (dayWeek === 0) {
         weekDay.innerHTML = week[6]
     } else {
         return; 
