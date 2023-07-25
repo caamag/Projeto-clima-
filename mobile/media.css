@@ -103,3 +103,27 @@ margin-left: 10px;}
 margin-top: 5px;}
 
 }
+
+
+
+/*Notebooks*/
+
+
+@media screen and (min-width: 1300px) and (max-width: 1400px){
+
+#temperature
+{font-size: 10rem;
+margin-top: 300px;
+margin-left: 15px;}
+
+#city
+{margin-top: -65px;
+margin-left: 25px;}
+
+.wind-description, .huminity
+{font-size: 1.2rem;}
+
+.minMax-div
+{font-size: 1.4rem;}
+
+}
