@@ -109,11 +109,11 @@ margin-top: 5px;}
 /*Notebooks*/
 
 
-@media screen and (min-width: 1300px) and (max-width: 1400px){
+@media screen and (min-width: 950px) and (max-width: 1350px){
 
 #temperature
 {font-size: 10rem;
-margin-top: 300px;
+margin-top: 230px;
 margin-left: 15px;}
 
 #city
